@@ -1,39 +1,16 @@
 # Instalación en Mac OSX
 
-Para instalar Ruby en Mac necesitas tener instalado [Homebrew](http://brew.sh/) primero.
+Para instalar Ruby vamos a utilizar un manejador de paquetes llamado [rvm](https://rvm.io/) que te va a permitir tener varias versiones de Ruby instaladas de forma simultánea.
 
-## Homebrew
-
-Para verificar si ya lo tienes instalado abre una **Terminal** y ejecuta lo siguiente:
+Para instalar `rvm` y Ruby ejecuta los siguientes comandos:
 
 ```
-$ brew -v
-```
-
-Si te dice que el comando no fue encontrado debes instalar [Homebrew](http://brew.sh/) primero. Para eso ejecuta el siguiente comando en la **Terminal**:
-
-```
-$ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-
-Cuando te pida instalar las herramientas de la línea de comandos de XCode, acepta.
-
-## Ruby
-
-Para instalar Ruby vamos a utilizar un manejador de paquetes llamado rbenv que te va a permitir tener varias versiones de Ruby instaladas de forma simultánea.
-
-Para instalar rbenv y Ruby ejecuta los siguientes comandos:
-
-```
-brew install rbenv ruby-build
-
-# Add rbenv to bash so that it loads every time you open a terminal
-echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
-source ~/.bash_profile
-
-# Install Ruby
-rbenv install 2.3.1
-rbenv global 2.3.1
+sudo apt-get install libgdbm-dev libncurses5-dev automake libtool bison libffi-dev
+gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+curl -sSL https://get.rvm.io | bash -s stable
+source ~/.rvm/scripts/rvm
+rvm install 2.3.3
+rvm use 2.3.3 --default
 ruby -v
 ```
 
