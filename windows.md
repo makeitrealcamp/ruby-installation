@@ -37,8 +37,8 @@ Eso es todo. Ahora devemos instalar el Kit de Desarrollo de Ruby.
 5. Una vez que haya terminado la instalación de DevKit abre el **Símbolo del Sistema** y ejecuta los siguientes comandos (sin incluir el símbolo `>`):
 
    ```
-   > cd C:\DevKit
-   > ruby dk.rb init
+   cd C:\DevKit
+   ruby dk.rb init
    ```
 
 6. Abre el archivo `C:\DevKit\config.yml` con **Bloc de Notas** u otro editor de texto y verifica que incluya una línea con la ruta donde instalaste Ruby. Si no es así agrégala manualmente. Por ejemplo, si la instalación quedó en `C:\Ruby23-x64`, la siguiente línea debe existir en `config.yml`:
@@ -50,7 +50,7 @@ Eso es todo. Ahora devemos instalar el Kit de Desarrollo de Ruby.
 7. Ejecuta el siguiente comando en el **Símbolo del Sistema**:
 
   ```
-  > ruby dk.rb install
+  ruby dk.rb install
   ```
 
 Eso es todo! Ya debes tener Ruby instalado.
@@ -60,7 +60,7 @@ Eso es todo! Ya debes tener Ruby instalado.
 Ejecuta el siguiente comando en el **Símbolo del Sistema**:
 
 ```
-> ruby -v
+ruby -v
 ```
 
 Te debería mostrar la versión que acabas de instalar. Si no es así, si te dice que el comando no se reconoce, reinicia tu máquina y prueba nuevamente.
