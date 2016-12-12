@@ -1,6 +1,6 @@
 # Instalación en Mac OSX
 
-Para instalar Ruby vamos a utilizar un manejador de paquetes llamado [rvm](https://rvm.io/) que te va a permitir tener varias versiones de Ruby instaladas de forma simultánea.
+Para instalar Ruby vamos a utilizar un manejador de paquetes llamado [rvm](https://rvm.io/) que te va a permitir tener varias versiones de Ruby instaladas en tu máquina.
 
 Para instalar `rvm` y Ruby ejecuta los siguientes comandos:
 
