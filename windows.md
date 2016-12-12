@@ -34,7 +34,7 @@ Eso es todo. Ahora devemos instalar el Kit de Desarrollo de Ruby.
 
    ![Ruta DevKit](images/extract-devkit.jpg)
 
-5. En el **Símbolo del Sistema** ejecuta los siguiente comandos (omite el símbolo `>`):
+5. Una vez que haya terminado la instalación de DevKit abre el **Símbolo del Sistema** y ejecuta los siguientes comandos (sin incluir el símbolo `>`):
 
    ```
    > cd C:\DevKit
