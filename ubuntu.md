@@ -21,4 +21,4 @@ ruby -v
 
 Al ejecutar el último comando deberías ver la versión de Ruby que acabas de instalar.
 
-Si te dice que el comando no fue encontrado u algún otro error y eres alumno de Make it Real, contacta a tu mentor para que te ayude a revisar el problema.
+Si te dice que el comando no fue encontrado, o aparece algún otro error, y eres alumno de Make it Real, contacta a tu mentor para que te ayude a revisar el problema.
