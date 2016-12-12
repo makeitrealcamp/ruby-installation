@@ -1,6 +1,8 @@
 # Instalación en Windows
 
-Para instalar Ruby en Windows debes descargar e instalar dos paquetes independientes: Ruby y DevKit. Si quieres ver un video que muestra el proceso con las instrucciones que se encuentran a continuación [haz click acá](https://makeitreal.wistia.com/medias/s3dvclbol2).
+Para instalar Ruby en Windows debes descargar e instalar dos paquetes independientes: Ruby y DevKit.
+
+Si quieres ver un video que muestra el proceso de instalación [haz click acá](https://makeitreal.wistia.com/medias/s3dvclbol2) (son las mismas instrucciones que encuentras en esta página pero de una versión anterior a la que te sugerimos instalar acá).
 
 ## Instalación de Ruby
 
